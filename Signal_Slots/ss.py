@@ -9,10 +9,9 @@ class Demo(QtGui.QMainWindow):
     def __init__(self):
         super(Demo, self).__init__()
         self.var=uic.loadUi('form.ui', self)
-        self.connect(self,self.var.pushButton,QtCore.SIGNAL("clicked"),self.mostrar())
 
-
-    def mostrar(self):
+    @QtCore.pyqtSlot()
+    def on_pushButton_clicked(self):
         texto=str(self.var.lineEdit.text())
         print texto
 
