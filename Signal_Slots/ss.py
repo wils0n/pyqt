@@ -11,7 +11,7 @@ class Demo(QtGui.QMainWindow):
         self.var=uic.loadUi('form.ui', self)
 
     @QtCore.pyqtSlot()
-    def on_pushButton_clicked(self):
+    def on_pushButton1_clicked(self):#pushButton1 is the objectName from button widget
         texto=str(self.var.lineEdit.text())
         print texto
 

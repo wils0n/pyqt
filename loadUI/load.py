@@ -1,6 +1,6 @@
 __author__ = 'wil_jm'
 
-#al cargar el archivo.ui se carga con todo signals and slots que se ha hecho en qtDesigner
+
 
 import sys
 from PyQt4 import QtGui, uic
@@ -17,3 +17,4 @@ if __name__ == "__main__":
     ui.show()
     sys.exit(app.exec_())
 
+#al cargar el archivo.ui se carga con todo signals and slots que se ha hecho en qtDesigner
