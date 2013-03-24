@@ -1,9 +1,5 @@
-from PyQt4.QtCore import QLine
-from PyQt4.QtGui import QLineEdit
-
 __author__ = 'wil_jm'
 
-#al cargar el archivo.ui se carga con todo signals and slots que se ha hecho en qtDesigner
 
 import sys
 from PyQt4 import QtGui, uic, QtCore
